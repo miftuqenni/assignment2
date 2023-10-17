@@ -1,0 +1,70 @@
+public class Main {
+    public static void main(String[] args) {
+        int num1 = 20;
+                int num2 = 15;
+
+        // Arithmetic operations
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+
+        System.out.println("Arithmetic Operations:");
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + difference);
+        System.out.println("Product: " + product);
+        System.out.println("Quotient: " + quotient);
+int result = remainder(20,15);
+        System.out.println("remainder is "+result);
+        // Relational operators and conditional statements
+        if (num1 > num2) {
+            System.out.println(num1 + " is greater than " + num2);
+        } else if (num1 < num2) {
+            System.out.println(num1 + " is less than " + num2);
+        } else {
+            System.out.println(num1 + " is equal to " + num2);
+        }
+
+        // Switch-case
+        int choice = 2;
+        System.out.print("Switch statement: ");
+        switch (choice) {
+            case 1:
+                System.out.println("Choice 1 selected");
+                break;
+            case 2:
+                System.out.println("Choice 2 selected");
+                break;
+            case 3:
+                System.out.println("Choice 3 selected");
+                break;
+            default:
+                System.out.println("Invalid choice");
+                break;
+        }
+
+        // For loop
+        System.out.println("For loop:");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Iteration " + i);
+        }
+
+        // While loop
+        System.out.println("While loop:");
+        int count = 1;
+        while (count <= 5) {
+            System.out.println("Iteration " + count);
+            count++;
+        }
+    }
+    public static int remainder(int num1,int num2){
+        return num1%num2;
+    }
+}
+
+
+
+
+
+
+
